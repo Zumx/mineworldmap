@@ -1,0 +1,47 @@
+{
+  "name": "Mine World Map",
+  "slug": "mineworldmap",
+  "emoji": "⛏️",
+  "domain": "mineworldmap.com",
+  "colors": {
+    "primary": "#1a1a1a",
+    "accent": "#d4af37"
+  },
+  "osm": {
+    "key": "historic",
+    "value": "mine"
+  },
+  "osmFilters": [
+    {
+      "key": "man_made",
+      "value": "mineshaft"
+    },
+    {
+      "key": "historic",
+      "value": "mine"
+    }
+  ],
+  "includeRelations": false,
+  "dedupeMeters": 0,
+  "mappedNoun": "mines",
+  "unnamedLabel": "Unnamed mine",
+  "metaFields": [
+    {
+      "key": "resource",
+      "label": "Resource"
+    }
+  ],
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "namedOnly": false,
+  "includeFilter": null,
+  "dataSource": {
+    "type": "overpass"
+  },
+  "googlePlaces": {
+    "enabled": false,
+    "cap": 800
+  }
+}
