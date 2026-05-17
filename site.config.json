@@ -25,12 +25,14 @@
   "dedupeMeters": 0,
   "mappedNoun": "mines",
   "unnamedLabel": "Unnamed mine",
+  "affiliateUrl": "https://www.getyourguide.com/s/?q={q}",
   "metaFields": [
     {
       "key": "resource",
       "label": "Resource"
     }
   ],
+  "aboutText": null,
   "locales": [
     "en"
   ],
