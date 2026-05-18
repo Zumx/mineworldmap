@@ -23,6 +23,7 @@
   ],
   "includeRelations": false,
   "dedupeMeters": 0,
+  "initialCap": 8000,
   "mappedNoun": "mines",
   "unnamedLabel": "Unnamed mine",
   "affiliateUrl": "https://www.getyourguide.com/s/?q={q}",
