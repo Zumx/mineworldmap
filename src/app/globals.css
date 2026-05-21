@@ -125,16 +125,12 @@ a {
   padding: 72px 24px;
   text-align: center;
 }
-/* Hero content is constrained to a narrow centered column (~50% of the
-   old width) while the gradient band stays full-bleed. Tune the two
-   max-width values below to taste — they are the only knobs. */
 .hero h1 {
-  font-size: clamp(24px, 5vw, 40px);
-  max-width: 340px;
-  margin: 0 auto 14px;
+  font-size: clamp(28px, 6vw, 52px);
+  margin-bottom: 14px;
 }
 .hero p {
-  max-width: 340px;
+  max-width: 620px;
   margin: 0 auto 26px;
   opacity: 0.92;
 }
@@ -242,6 +238,26 @@ a {
 .post-meta {
   font-size: 13px;
   color: color-mix(in srgb, var(--text) 55%, white);
+}
+.related-posts {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.related-posts h2 {
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.related-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.related-posts a {
+  text-decoration: none;
+  font-weight: 600;
 }
 
 /* ---- Fullscreen map ---- */
